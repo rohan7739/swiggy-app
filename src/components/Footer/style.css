@@ -1,0 +1,135 @@
+.footer-component {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    /* min-height: 600px; */
+    background-color: #000;
+    padding-top: 70px;
+    color: #fff;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+.footer-company {}
+
+.heading-company,
+.heading-contact,
+.heading-legal {
+    color: gray;
+    font-weight: 700;
+}
+
+.company-links {}
+
+.comp-link {
+    list-style: none;
+    line-height: 35px;
+}
+
+.comp-link-a {
+    color: #fff;
+}
+
+.footer-contact {}
+
+.heading-contact {}
+
+.contact-links {}
+
+.footer-legal {}
+
+.heading-legal {}
+
+.contact-links {}
+
+.footer-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-link {
+    transition: 0.3s all ease-in-out;
+}
+
+.image-link:hover {
+    transform: scale(1.05);
+}
+
+.image-link {}
+
+.footer-cities {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 5500px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.city {
+    list-style: none;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+.city-link {
+    color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding: 0 30px;
+}
+
+.bottom-image {
+    height: 43px;
+}
+
+.bottom-copyright {
+    font-size: 19px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}

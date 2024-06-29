@@ -1,0 +1,55 @@
+/* .app-layout{
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+}
+
+.left{
+  color: #fff;
+  font-size: 30px;
+  width: 100px;
+  background-color: #6f6f6f;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#all-cards{
+  overflow: hidden;
+  background-color: #a7a7a7;
+}
+
+.App-header {
+  position: relative;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 860px;
+  min-height: 100vh;
+  justify-content: flex-start;
+  transition: 0.5s all ease-in-out;
+  padding: 0 10px;
+
+}
+
+.card{
+  position: relative;
+  left: 0;
+  margin: 0 10px;
+  min-width: 260px;
+  transition: 1s all ease-in-out;
+}
+
+#prev, #next{
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #00d5ff;
+  border-radius: 25px;
+  margin: 0 50px;
+} */

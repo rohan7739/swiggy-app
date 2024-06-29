@@ -1,0 +1,238 @@
+:root {
+    --food-heading-color: #3e4152;
+    --description-color: rgba(40, 44, 63, .45);
+}
+
+.resdetails-component {
+    display: flex;
+    background-color: #fff;
+    min-height: 600px;
+    justify-content: center;
+    width: 100%;
+}
+
+.all-res-details {
+    margin-top: 40px;
+    width: 40%;
+}
+
+.res-search-food {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+
+}
+
+.res-search-food-item {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.res-address-rating {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #9f9f9f;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+
+.res-address {}
+
+.res-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.res-cuisine {
+    margin: 0;
+    font-size: 13px;
+}
+
+.res-distance {
+    margin: 0;
+    font-size: 13px;
+}
+
+.res-rating-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid #9f9f9f;
+    border-radius: 7px;
+    padding: 10px 5px;
+    font-size: 10px;
+}
+
+.res-rating {
+    margin: 0;
+    font-size: 15px;
+}
+
+.res-total-ratings {
+    margin: 0;
+}
+
+.res-time-price {}
+
+.res-price-card {
+    display: flex;
+    font-weight: 700;
+}
+
+.res-delivery-time {
+    margin-right: 30px;
+}
+
+.RestaurantTimeCost_icon__8UdT4 {
+    margin-right: 10px;
+}
+
+.res-price {}
+
+.res-orderability {
+    background-color: #f1f1f6;
+    color: rgb(246, 76, 65);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.res-offers {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0;
+}
+
+.res-offers::-webkit-scrollbar {
+    display: none;
+}
+
+.res-offer-item {
+    min-width: 220px !important;
+    border: 2px solid #e6e6e6;
+    padding: 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.res-offer-item-header {
+    display: flex;
+}
+
+.res-offer-item-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.res-offer-logo {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.res-details-foods {
+    margin-top: 50px;
+}
+
+.res-detail-food {}
+
+.res-detail-food-heading {
+    color: var(--food-heading-color);
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.food-box {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.food-box-details {}
+
+.food-name {
+    font-size: 17px;
+}
+
+.food-price {
+    font-size: 14px;
+}
+
+.food-description {
+    color: var(--description-color);
+    font-size: 14px;
+}
+
+.food-img-add-btn {}
+
+.food-image {
+    width: 120px;
+    height: 98px;
+    border-radius: 10px;
+}
+
+.food-addtocart-btn {
+    position: absolute;
+    transform: translateX(-105px) translateY(75px);
+    width: 94px;
+    height: 34px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    color: #60B246;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px #d6d6d6;
+}
+
+.food-addtocart-btn:hover {
+    box-shadow: 0 2px 8px #8f8f8f;
+}
+
+.res-detail-food-end {
+    border-bottom: 16px solid #f1f1f6;
+    margin: 25px 0;
+}
+
+.res-bottom-card-first {
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F6;
+    padding: 20px;
+    margin-top: -40px;
+    border-bottom: 1px solid black;
+}
+
+.res-bottom-image {
+    width: 60px;
+    height: 30px;
+}
+
+.res-license-no {
+    margin: 0 15px;
+    color: #93959f;
+    font-size: 12px;
+
+}
+
+.res-bottom-card-second {
+    background-color: #F1F1F6;
+    padding: 20px;
+    padding-bottom: 100px;
+    font-size: 14px;
+    color: #93959f;
+    line-height: 0.5;
+}
+
+.card-bottom-name {
+    font-size: 14px;
+    font-weight: 600;
+}
